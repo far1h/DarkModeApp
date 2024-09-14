@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        overrideUserInterfaceStyle = .light
+//        overrideUserInterfaceStyle = .light
     }
     
     override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
