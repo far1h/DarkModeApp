@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    override func viewWillAppear(_ animated: Bool) {
+    override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
         let userInterfaceStyle = traitCollection.userInterfaceStyle
         
         if userInterfaceStyle == .dark {
